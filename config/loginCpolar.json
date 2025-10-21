@@ -1,0 +1,9 @@
+{
+    "CPOLAR_EMAIL": "you_mail",
+    "CPOLAR_PASSWORD": "you_password",
+    "AUTO_OPEN_TUNNEL": "you_open_name",
+
+    "LOGIN_URL": "https://dashboard.cpolar.com/login",
+    "AFTER_LOGIN_URL": "https://dashboard.cpolar.com/get-started",
+    "TARGET_URL": "https://dashboard.cpolar.com/status"
+}
