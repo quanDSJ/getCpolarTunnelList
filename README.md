@@ -11,7 +11,7 @@
 可在loginCpolar.json文件 ` AUTO_OPEN_TUNNEL ` 中添加要自动跳转的隧道名（http，https），一键跳转至浏览器并自动打开指定url
 
 - 环境安装脚本
-```python
+```python   ”“python
 
 pip install requests beautifulsoup4PIP install requests beautifulsoup4
 
@@ -19,14 +19,3 @@ pip install requests beautifulsoup4PIP install requests beautifulsoup4
 
 - windows可执行程序说明 :
 在 ` getCpolarTunnelList_win.zip ` 是windows可执行程序，解压即可运行
-
-json格式：
-```json
-    "CPOLAR_EMAIL": "you_mail",
-    "CPOLAR_PASSWORD": "you_password",
-    "AUTO_OPEN_TUNNEL": "you_open_name",
-
-    "LOGIN_URL": "https://dashboard.cpolar.com/login",“LOGIN_URL”:“https://dashboard.cpolar.com/login”,
-    "AFTER_LOGIN_URL": "https://dashboard.cpolar.com/get-started",“AFTER_LOGIN_URL”:“https://dashboard.cpolar.com/get-started”,
-    "TARGET_URL": "https://dashboard.cpolar.com/status"“TARGET_URL”:“https://dashboard.cpolar.com/status”
-```
